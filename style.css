@@ -1,5 +1,6 @@
 body {
     font-family: Arial , serif;
+    background: #FF442C;
 }
 p {
     color:black;
@@ -8,10 +9,22 @@ p {
 }
 
 div {
-  width: 100%;
+    width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-right: 300px;
 }
 
 .main {
-  padding-left: 30px;
-  width: 500px;
+    padding-left: 500px;
+    width: 500px;
+    background-color:;
+<!-- Modifie la couleur et la centrer -->
+
+h1 {
+
 }
