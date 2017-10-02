@@ -8,11 +8,10 @@ p {
 }
 
 div {
-  padding-right: 30px;
   width: 100%;
 }
 
 .main {
   padding-left: 30px;
-  padding-right: 300px;
+  width: 500px;
 }
