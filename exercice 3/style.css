@@ -46,8 +46,9 @@ width: 100%;
  text-align: justify;
  margin: 1px dashed red;
  padding-left: 350px;
+ padding-bottom: 200px;
 }
 .tab .image div img {
-  width: 400px;
-  height: 400px;
+  width: 550px;
+  height: 550px;
 }
