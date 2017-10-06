@@ -1,17 +1,26 @@
-
-.main h1 {
-  border: 1px dashed red;
-  color: #fff;
+.main {
   padding-top: 100px;
+}
+.main h1 {
+  color: #fff;
   width: 500px;
   margin: 0 auto;
   display: block;
+  text-align: center;
+  font-size: 50px;
+  font-family: OCR A Std, monospace;
+
+
 }
 
 body, html {
-background-image:url(http://i.imgur.com/rTcXkhK.gif);
+background-image:url(https://thumbs.gfycat.com/RealFlawedHoverfly-max-1mb.gif);
 background-repeat: no-repeat;
-background-size:100%;
+background-position:center bottom;
+background-size: cover;
+background-color: black;
+padding-top: 410px;
+margin: 0;
 }
 
 .button {
@@ -27,6 +36,9 @@ background-size:100%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 50px;
+
+  position: absolute;
+    top: 64%; left: 85%;
 }
 
 .button span {
@@ -35,6 +47,7 @@ background-size:100%;
   position: relative;
   transition: 0.5s;
   font-family: Courier, monospace;
+  font-size: 42px;
 }
 
 .button span:after {
