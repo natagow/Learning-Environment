@@ -1,0 +1,55 @@
+
+.main h1 {
+  border: 1px dashed red;
+  color: #fff;
+  padding-top: 100px;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+body, html {
+background-image:url(http://i.imgur.com/rTcXkhK.gif);
+background-repeat: no-repeat;
+background-size:100%;
+}
+
+.button {
+  display: block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: 0 none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
