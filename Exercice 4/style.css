@@ -16,17 +16,17 @@ background-size:100%;
 
 .button {
   display: block;
-  border-radius: 4px;
-  background-color: #f4511e;
+  border-radius: 70px;
+  background-color: #FF2FF4;
   border: 0 none;
-  color: #FFFFFF;
+  color: #7E457F;
   text-align: center;
   font-size: 28px;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 50px;
 }
 
 .button span {
@@ -34,6 +34,7 @@ background-size:100%;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  font-family: Courier, monospace;
 }
 
 .button span:after {
