@@ -21,8 +21,6 @@ h4 {
 }
 
 .tab {
-margin: 0;
-padding: 0;
 height: 1500px;
 width: 100%;
 }
@@ -31,6 +29,7 @@ width: 100%;
 .tab .image {
   width: 100%;
   display: block;
+  float:left;
 }
 
 .tab .image div {
@@ -43,13 +42,24 @@ width: 100%;
  margin: 1px dashed red;
  padding-left: 350px;
  padding-bottom: 200px;
- font-size: 18px
+ font-size: 18px;
 }
 .tab .image div img {
   width: 550px;
   height: 550px;
 }
 
-p {
+.tab .image p {
   text-align: center;
+  background-color: #FFCCCA;
+  font-family: arial;
+  font-size:21px;
+
+}
+
+.para p {
+  text-align: center;
+  background-color: #FFCCCA;
+  width: 411px;
+  margin:auto;
 }
