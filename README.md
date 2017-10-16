@@ -9,7 +9,7 @@ ________
         
 JavaScript
 __________
-![Exercice](https://jdwilson.ca/static/img/logos/js.svg)
+![Exercice](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqduJvPmYXDbBzhQMMizr2k_GhX_oCzAC8VXEAad6nzvGCi9z)
     
 
 
